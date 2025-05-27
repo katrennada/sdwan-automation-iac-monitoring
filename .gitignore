@@ -1,0 +1,26 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+*.backup
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+.env
+.venv/
+*.egg-info/
+
+# Ansible
+*.retry
+
+# General
+.DS_Store
+.vscode/
+.idea/
